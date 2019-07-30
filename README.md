@@ -5,7 +5,7 @@
  ### Install
  
  ```bash
-    go get github.com/yale8848/doris-stream-loader@v0.1.0
+    go get github.com/yale8848/doris-stream-loader@v0.1.2
 ```
  
  ### API
