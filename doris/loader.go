@@ -67,9 +67,7 @@ func (load *Load) request(method string, urlValue reqUrl, body io.Reader, option
 	if err != nil {
 		return
 	}
-
 	rest = new(Result)
-
 	err = json.Unmarshal(bRes, rest)
 	if err != nil {
 		return
